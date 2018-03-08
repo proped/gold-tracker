@@ -1,11 +1,12 @@
-# golf-tracker
+# gold-tracker
 A simple UI to see gold rate price every day
 
 Best Experience on  Swift 4.0 , Xcode 9.2 , iPhone X
 
 App screenshot
 
-![alt text](https://ibb.co/dV7iL7)
+![img](https://preview.ibb.co/juBA07/app_screenshot_1.png)
 
-![alt text](https://ibb.co/nAQnf7)
+![img](https://preview.ibb.co/g8kW7n/app_screenshot_2.png)
+
 
