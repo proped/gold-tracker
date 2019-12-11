@@ -14,7 +14,6 @@
 		323793FE204D992700CC30F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323793FD204D992700CC30F3 /* Assets.xcassets */; };
 		32379401204D992700CC30F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323793FF204D992700CC30F3 /* LaunchScreen.storyboard */; };
 		3237940C204D992700CC30F3 /* GoldTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3237940B204D992700CC30F3 /* GoldTrackerTests.swift */; };
-		32379417204D992700CC30F3 /* GoldTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32379416204D992700CC30F3 /* GoldTrackerUITests.swift */; };
 		32379428204D9E6D00CC30F3 /* GoldPriceFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32379426204D9E6C00CC30F3 /* GoldPriceFileManager.swift */; };
 		32379429204D9E6D00CC30F3 /* FileManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32379427204D9E6C00CC30F3 /* FileManagerError.swift */; };
 		32379433204D9FA000CC30F3 /* GoldPrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32379432204D9FA000CC30F3 /* GoldPrices.swift */; };
@@ -40,18 +39,10 @@
 		32F577C7204ED5CD00891CFF /* CurrencyUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F577C6204ED5CD00891CFF /* CurrencyUnit.swift */; };
 		66F2A01C36E211D2ED5CA3DA /* Pods_GoldTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A576D3951EDCB34941025D70 /* Pods_GoldTrackerTests.framework */; };
 		A5B57BBFF5E921D44248C4BA /* Pods_GoldTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6283D48EEA59C2402E9D56A /* Pods_GoldTracker.framework */; };
-		C5249C001937659A7DD4C305 /* Pods_GoldTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C146D247B3E71004FD090360 /* Pods_GoldTrackerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		32379408204D992700CC30F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 323793EB204D992700CC30F3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 323793F2204D992700CC30F3;
-			remoteInfo = GoldTracker;
-		};
-		32379413204D992700CC30F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 323793EB204D992700CC30F3 /* Project object */;
 			proxyType = 1;
@@ -74,7 +65,6 @@
 		32379407204D992700CC30F3 /* GoldTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3237940B204D992700CC30F3 /* GoldTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldTrackerTests.swift; sourceTree = "<group>"; };
 		3237940D204D992700CC30F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32379412204D992700CC30F3 /* GoldTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32379416204D992700CC30F3 /* GoldTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldTrackerUITests.swift; sourceTree = "<group>"; };
 		32379418204D992800CC30F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32379426204D9E6C00CC30F3 /* GoldPriceFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldPriceFileManager.swift; sourceTree = "<group>"; };
@@ -123,14 +113,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3237940F204D992700CC30F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5249C001937659A7DD4C305 /* Pods_GoldTrackerUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -159,7 +141,6 @@
 			children = (
 				323793F3204D992700CC30F3 /* GoldTracker.app */,
 				32379407204D992700CC30F3 /* GoldTrackerTests.xctest */,
-				32379412204D992700CC30F3 /* GoldTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -392,25 +373,6 @@
 			productReference = 32379407204D992700CC30F3 /* GoldTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		32379411204D992700CC30F3 /* GoldTrackerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 32379421204D992800CC30F3 /* Build configuration list for PBXNativeTarget "GoldTrackerUITests" */;
-			buildPhases = (
-				47299A6296032DBFCED18732 /* [CP] Check Pods Manifest.lock */,
-				3237940E204D992700CC30F3 /* Sources */,
-				3237940F204D992700CC30F3 /* Frameworks */,
-				32379410204D992700CC30F3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				32379414204D992700CC30F3 /* PBXTargetDependency */,
-			);
-			name = GoldTrackerUITests;
-			productName = GoldTrackerUITests;
-			productReference = 32379412204D992700CC30F3 /* GoldTrackerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -427,12 +389,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					32379406204D992700CC30F3 = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1120;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 323793F2204D992700CC30F3;
-					};
-					32379411204D992700CC30F3 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
@@ -455,7 +411,6 @@
 			targets = (
 				323793F2204D992700CC30F3 /* GoldTracker */,
 				32379406204D992700CC30F3 /* GoldTrackerTests */,
-				32379411204D992700CC30F3 /* GoldTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -474,13 +429,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		32379405204D992700CC30F3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		32379410204D992700CC30F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -534,24 +482,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoldTracker/Pods-GoldTracker-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		47299A6296032DBFCED18732 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GoldTrackerUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE5D02893544B25136A4D9AF /* [CP] Check Pods Manifest.lock */ = {
@@ -614,14 +544,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3237940E204D992700CC30F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32379417204D992700CC30F3 /* GoldTrackerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -629,11 +551,6 @@
 			isa = PBXTargetDependency;
 			target = 323793F2204D992700CC30F3 /* GoldTracker */;
 			targetProxy = 32379408204D992700CC30F3 /* PBXContainerItemProxy */;
-		};
-		32379414204D992700CC30F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 323793F2204D992700CC30F3 /* GoldTracker */;
-			targetProxy = 32379413204D992700CC30F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -840,40 +757,6 @@
 			};
 			name = Release;
 		};
-		32379422204D992800CC30F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17F745E8EDFD9A15453463B6 /* Pods-GoldTrackerUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M85MBXRGVS;
-				INFOPLIST_FILE = GoldTrackerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Nattapon.GoldTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GoldTracker;
-			};
-			name = Debug;
-		};
-		32379423204D992800CC30F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 702C88F30C893D1D49F3A8AB /* Pods-GoldTrackerUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M85MBXRGVS;
-				INFOPLIST_FILE = GoldTrackerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Nattapon.GoldTrackerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GoldTracker;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -900,15 +783,6 @@
 			buildConfigurations = (
 				3237941F204D992800CC30F3 /* Debug */,
 				32379420204D992800CC30F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		32379421204D992800CC30F3 /* Build configuration list for PBXNativeTarget "GoldTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32379422204D992800CC30F3 /* Debug */,
-				32379423204D992800CC30F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
