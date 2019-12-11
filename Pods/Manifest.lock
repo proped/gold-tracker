@@ -1,12 +1,12 @@
 PODS:
-  - Alamofire (4.7.0)
-  - Charts (3.0.5):
-    - Charts/Core (= 3.0.5)
-  - Charts/Core (3.0.5)
-  - Disk (0.3.3)
-  - IQKeyboardManagerSwift (5.0.7)
-  - ObjectMapper (3.1.0)
-  - SwiftyJSON (4.0.0)
+  - Alamofire (4.9.1)
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - Disk (0.6.4)
+  - IQKeyboardManagerSwift (6.5.4)
+  - ObjectMapper (3.5.1)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -16,14 +16,23 @@ DEPENDENCIES:
   - ObjectMapper
   - SwiftyJSON
 
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - Disk
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+    - SwiftyJSON
+
 SPEC CHECKSUMS:
-  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
-  Charts: 45cdc985b764c838b35ee47eb1365d15735f6d1a
-  Disk: d1f55cd61f6ca20f368232d0c6e37e3c3dfcb63e
-  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
-  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
-  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  Disk: dcee5c2e98fb72f9a924cde8da8435b08244a80e
+  IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
 PODFILE CHECKSUM: f03fd3d92dd5c18ec5d80dbce5860cd36496276e
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.8.4
