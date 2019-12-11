@@ -38,16 +38,6 @@
                ReferencedContainer = "container:GoldTracker.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "32379411204D992700CC30F3"
-               BuildableName = "GoldTrackerUITests.xctest"
-               BlueprintName = "GoldTrackerUITests"
-               ReferencedContainer = "container:GoldTracker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
